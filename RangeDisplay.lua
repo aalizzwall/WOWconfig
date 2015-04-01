@@ -5,8 +5,8 @@ RangeDisplayDB3 = {
 		},
 	},
 	["profileKeys"] = {
-		["Aalizz - 冰風崗哨"] = "Default",
 		["Aalizzwall - 冰風崗哨"] = "Default",
+		["Aalizz - 冰風崗哨"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

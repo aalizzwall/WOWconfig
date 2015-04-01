@@ -1,5 +1,9 @@
 
 Postal3DB = {
+	["profileKeys"] = {
+		["Aalizzwall - 冰風崗哨"] = "Aalizzwall - 冰風崗哨",
+		["Aalizz - 冰風崗哨"] = "Aalizz - 冰風崗哨",
+	},
 	["global"] = {
 		["BlackBook"] = {
 			["alts"] = {
@@ -8,14 +12,10 @@ Postal3DB = {
 			},
 		},
 	},
-	["profileKeys"] = {
-		["Aalizz - 冰風崗哨"] = "Aalizz - 冰風崗哨",
-		["Aalizzwall - 冰風崗哨"] = "Aalizzwall - 冰風崗哨",
-	},
 	["profiles"] = {
-		["Aalizz - 冰風崗哨"] = {
-		},
 		["Aalizzwall - 冰風崗哨"] = {
+		},
+		["Aalizz - 冰風崗哨"] = {
 		},
 	},
 }

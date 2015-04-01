@@ -23,8 +23,6 @@ Quartz3DB = {
 				},
 			},
 		},
-		["EnemyCasts"] = {
-		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -32,6 +30,8 @@ Quartz3DB = {
 					["x"] = 593.000427246094,
 				},
 			},
+		},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -51,16 +51,16 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Range"] = {
-		},
 		["Mirror"] = {
+		},
+		["Range"] = {
 		},
 		["Latency"] = {
 		},
 	},
 	["profileKeys"] = {
-		["Aalizz - 冰風崗哨"] = "Default",
 		["Aalizzwall - 冰風崗哨"] = "Default",
+		["Aalizz - 冰風崗哨"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

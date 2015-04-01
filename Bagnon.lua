@@ -15,44 +15,34 @@ Bagnon_Sets = {
 	},
 	["inscribeColor"] = {
 	},
-	["frames"] = {
-		["vault"] = {
-			["color"] = {
-			},
-			["borderColor"] = {
-			},
-		},
-		["inventory"] = {
-			["color"] = {
-			},
-			["borderColor"] = {
-			},
-		},
-		["guild"] = {
-			["color"] = {
-			},
-			["borderColor"] = {
-			},
-		},
-		["bank"] = {
-			["color"] = {
-			},
-			["scale"] = 1,
-			["alpha"] = 1,
-			["borderColor"] = {
-			},
-		},
-	},
-	["herbColor"] = {
-	},
-	["normalColor"] = {
-	},
-	["gemColor"] = {
-	},
-	["reagentColor"] = {
-	},
 	["players"] = {
 		["冰風崗哨"] = {
+			["Aalizz"] = {
+				["vault"] = {
+					["hiddenBags"] = {
+					},
+				},
+				["inventory"] = {
+					["y"] = 99.9999923706055,
+					["x"] = -50,
+					["point"] = "BOTTOMRIGHT",
+					["hiddenBags"] = {
+					},
+					["itemScale"] = 1,
+				},
+				["guild"] = {
+					["hiddenBags"] = {
+					},
+				},
+				["bank"] = {
+					["y"] = -96,
+					["x"] = 95.0000076293945,
+					["point"] = "BOTTOMLEFT",
+					["hiddenBags"] = {
+					},
+					["itemScale"] = 1,
+				},
+			},
 			["Aalizzwall"] = {
 				["vault"] = {
 					["hiddenBags"] = {
@@ -69,31 +59,6 @@ Bagnon_Sets = {
 				["bank"] = {
 					["hiddenBags"] = {
 					},
-				},
-			},
-			["Aalizz"] = {
-				["vault"] = {
-					["hiddenBags"] = {
-					},
-				},
-				["inventory"] = {
-					["y"] = 99.9999923706055,
-					["x"] = -50,
-					["point"] = "BOTTOMRIGHT",
-					["hiddenBags"] = {
-					},
-				},
-				["guild"] = {
-					["hiddenBags"] = {
-					},
-				},
-				["bank"] = {
-					["y"] = -96,
-					["x"] = 95.0000076293945,
-					["point"] = "BOTTOMLEFT",
-					["hiddenBags"] = {
-					},
-					["itemScale"] = 1,
 				},
 			},
 			["更多的治療"] = {
@@ -131,6 +96,44 @@ Bagnon_Sets = {
 					["hiddenBags"] = {
 					},
 				},
+			},
+		},
+	},
+	["reagentColor"] = {
+	},
+	["gemColor"] = {
+	},
+	["normalColor"] = {
+	},
+	["herbColor"] = {
+	},
+	["frames"] = {
+		["vault"] = {
+			["color"] = {
+			},
+			["borderColor"] = {
+			},
+		},
+		["inventory"] = {
+			["color"] = {
+			},
+			["scale"] = 1,
+			["alpha"] = 1,
+			["borderColor"] = {
+			},
+		},
+		["guild"] = {
+			["color"] = {
+			},
+			["borderColor"] = {
+			},
+		},
+		["bank"] = {
+			["color"] = {
+			},
+			["scale"] = 1,
+			["alpha"] = 1,
+			["borderColor"] = {
 			},
 		},
 	},

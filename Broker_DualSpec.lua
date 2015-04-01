@@ -5,11 +5,11 @@ Broker_DualSpecDB = {
 	},
 	["profiles"] = {
 		["Aalizz - 冰風崗哨"] = {
-			["secondaryHelm"] = 1,
+			["primaryCloak"] = 1,
 			["secondaryCloak"] = 1,
+			["secondaryHelm"] = 1,
 			["points"] = false,
 			["primaryHelm"] = 1,
-			["primaryCloak"] = 1,
 		},
 	},
 }

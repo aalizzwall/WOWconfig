@@ -1,10 +1,10 @@
 
 ChocolateBarDB = {
 	["profileKeys"] = {
-		["更多的治療 - 冰風崗哨"] = "Default",
+		["Aalizz - 冰風崗哨"] = "Default",
 		["Patala - 冰風崗哨"] = "Default",
 		["Aalizzwall - 冰風崗哨"] = "Default",
-		["Aalizz - 冰風崗哨"] = "Default",
+		["更多的治療 - 冰風崗哨"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -32,16 +32,16 @@ ChocolateBarDB = {
 					["showText"] = false,
 				},
 				["Broker_GarrisonBuilding"] = {
-					["barName"] = "ChocolateBar1",
 					["index"] = 6,
+					["barName"] = "ChocolateBar1",
 				},
 				["WIM"] = {
-					["barName"] = "ChocolateBar1",
 					["index"] = 13,
+					["barName"] = "ChocolateBar1",
 				},
 				["SocialState"] = {
-					["barName"] = "ChocolateBar1",
 					["index"] = 12,
+					["barName"] = "ChocolateBar1",
 				},
 				["Prat"] = {
 					["showText"] = false,
@@ -50,12 +50,12 @@ ChocolateBarDB = {
 					["index"] = 6,
 				},
 				["Broker_Location"] = {
-					["barName"] = "ChocolateBar1",
 					["index"] = 11,
+					["barName"] = "ChocolateBar1",
 				},
 				["iCPU"] = {
-					["barName"] = "ChocolateBar1",
 					["index"] = 9,
+					["barName"] = "ChocolateBar1",
 				},
 				["SavedInstances"] = {
 					["showText"] = false,
@@ -70,8 +70,8 @@ ChocolateBarDB = {
 					["index"] = 8,
 				},
 				["BugSack"] = {
-					["barName"] = "ChocolateBar1",
 					["index"] = 14,
+					["barName"] = "ChocolateBar1",
 				},
 				["_NPCScan.Overlay"] = {
 					["showText"] = false,
@@ -79,47 +79,9 @@ ChocolateBarDB = {
 					["align"] = "right",
 					["index"] = 5,
 				},
-				["GarrisonMissionManager"] = {
+				["金錢"] = {
+					["index"] = 10,
 					["barName"] = "ChocolateBar1",
-					["index"] = 3,
-				},
-				["Broker_MicroMenu"] = {
-					["barName"] = "ChocolateBar1",
-					["index"] = 8,
-				},
-				["Broker_DurabilityInfo"] = {
-					["barName"] = "ChocolateBar1",
-					["index"] = 2,
-				},
-				["Bartender4"] = {
-					["showText"] = false,
-					["barName"] = "ChocolateBar1",
-					["align"] = "right",
-					["index"] = 2,
-				},
-				["Broker_DualSpecObject"] = {
-					["barName"] = "ChocolateBar1",
-					["index"] = 4,
-				},
-				["Decursive"] = {
-					["showText"] = false,
-					["barName"] = "ChocolateBar1",
-					["align"] = "right",
-					["index"] = 1,
-				},
-				["Simple iLevel"] = {
-					["barName"] = "ChocolateBar1",
-					["index"] = 7,
-				},
-				["Broker_GarrisonMission"] = {
-					["barName"] = "ChocolateBar1",
-					["index"] = 5,
-				},
-				["MogIt"] = {
-					["showText"] = false,
-					["barName"] = "ChocolateBar1",
-					["align"] = "right",
-					["index"] = 9,
 				},
 				["TellMeWhen"] = {
 					["showText"] = false,
@@ -127,9 +89,47 @@ ChocolateBarDB = {
 					["align"] = "right",
 					["index"] = 10,
 				},
-				["金錢"] = {
+				["Broker_DurabilityInfo"] = {
+					["index"] = 2,
 					["barName"] = "ChocolateBar1",
-					["index"] = 10,
+				},
+				["Bartender4"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["index"] = 2,
+				},
+				["GarrisonMissionManager"] = {
+					["index"] = 3,
+					["barName"] = "ChocolateBar1",
+				},
+				["Broker_MicroMenu"] = {
+					["index"] = 8,
+					["barName"] = "ChocolateBar1",
+				},
+				["Simple iLevel"] = {
+					["index"] = 7,
+					["barName"] = "ChocolateBar1",
+				},
+				["Broker_GarrisonMission"] = {
+					["index"] = 5,
+					["barName"] = "ChocolateBar1",
+				},
+				["MogIt"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["index"] = 9,
+				},
+				["Decursive"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+					["index"] = 1,
+				},
+				["Broker_DualSpecObject"] = {
+					["index"] = 4,
+					["barName"] = "ChocolateBar1",
 				},
 				["BagnonLauncher"] = {
 					["index"] = 3,

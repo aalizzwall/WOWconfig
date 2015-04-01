@@ -1,13 +1,14 @@
 
 MogItDB = {
-	["profileKeys"] = {
-		["Aalizz - 冰風崗哨"] = "Default",
-	},
 	["global"] = {
 		["version"] = "3.4.0",
 	},
+	["profileKeys"] = {
+		["Aalizz - 冰風崗哨"] = "Default",
+	},
 	["profiles"] = {
 		["Default"] = {
+			["gridWidth"] = 600.000061035156,
 			["y"] = 0,
 			["x"] = 0,
 		},

@@ -1,10 +1,8 @@
 
 DecursiveDB = {
-	["profileKeys"] = {
-		["Aalizz - 冰風崗哨"] = "Default",
-		["Patala - 冰風崗哨"] = "Default",
-		["Aalizzwall - 冰風崗哨"] = "Default",
-		["更多的治療 - 冰風崗哨"] = "Default",
+	["global"] = {
+		["LastVersionAnnounce"] = 1427898182,
+		["NewerVersionAlert"] = 1419336719,
 	},
 	["class"] = {
 		["HUNTER"] = {
@@ -51,9 +49,11 @@ DecursiveDB = {
 			},
 		},
 	},
-	["global"] = {
-		["LastVersionAnnounce"] = 1427898182,
-		["NewerVersionAlert"] = 1419336719,
+	["profileKeys"] = {
+		["更多的治療 - 冰風崗哨"] = "Default",
+		["Patala - 冰風崗哨"] = "Default",
+		["Aalizzwall - 冰風崗哨"] = "Default",
+		["Aalizz - 冰風崗哨"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

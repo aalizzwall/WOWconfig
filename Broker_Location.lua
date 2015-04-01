@@ -6,6 +6,8 @@ Broker_LocationDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["show_subzone"] = false,
+			["show_zone"] = false,
 		},
 	},
 }

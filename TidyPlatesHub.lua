@@ -62,15 +62,18 @@ TidyPlatesHubGlobal = {
 	["ClassColorPartyMembers"] = false,
 	["WidgetsDebuffTrackList"] = "My Rake\nMy Rip\nMy Moonfire\nAll 339\nMy Regrowth\nMy Rejuvenation",
 	["OpacitySpotlight"] = 1,
-	["WidgetAuraTrackMagic"] = true,
+	["ColorAttackingOthers"] = {
+		["r"] = 0.0588235294117647,
+		["g"] = 0.588235294117647,
+		["b"] = 0.901960784313726,
+	},
 	["ColorFriendlyNameMode"] = 1,
 	["TextColorGuildMember"] = {
 		["r"] = 0.235294117647059,
 		["g"] = 0.658823529411765,
 		["b"] = 1,
 	},
-	["OpacityFilterLookup"] = {
-	},
+	["HeadlineEnemyColor"] = 4,
 	["StyleEnemyMode"] = 1,
 	["ClassEnemyIcon"] = false,
 	["ColorPartyAggro"] = {
@@ -80,12 +83,9 @@ TidyPlatesHubGlobal = {
 	},
 	["OpacityFiltered"] = 0,
 	["OpacityTarget"] = 1,
-	["ColorAttackingOthers"] = {
-		["r"] = 0.0588235294117647,
-		["g"] = 0.588235294117647,
-		["b"] = 0.901960784313726,
+	["WidgetAuraTrackMagic"] = true,
+	["OpacityFilterLookup"] = {
 	},
-	["HeadlineEnemyColor"] = 4,
 	["TextColorNeutral"] = {
 		["r"] = 0.988235294117647,
 		["g"] = 0.705882352941177,
@@ -96,8 +96,8 @@ TidyPlatesHubGlobal = {
 		["g"] = 0.2,
 		["b"] = 0.125490196078431,
 	},
-	["ColorEnemyNameMode"] = 1,
-	["ClassPartyIcon"] = false,
+	["WidgetsAuraMode"] = 1,
+	["WidgetsRangeMode"] = 1,
 	["UnitSpotlightScale"] = 1.4,
 	["TextColorHostilePlayer"] = {
 		["r"] = 1,
@@ -127,15 +127,15 @@ TidyPlatesHubGlobal = {
 		["g"] = 1,
 		["b"] = 0.2,
 	},
+	["OpacityFilterList"] = "Fanged Pit Viper",
 	["WidgetAuraTrackDispelFriendly"] = false,
-	["UnitSpotlightOpacity"] = 1,
 	["TextHealthTextMode"] = 1,
 	["ColorEnemyBarMode"] = 1,
 	["HeadlineFriendlyColor"] = 4,
 	["WidgetsDebuffPriority"] = {
 	},
 	["ScaleStandard"] = 1,
-	["OpacityFilterList"] = "Fanged Pit Viper",
+	["UnitSpotlightOpacity"] = 1,
 	["ColorHostilePlayer"] = {
 		["r"] = 1,
 		["g"] = 0,
@@ -196,8 +196,8 @@ TidyPlatesHubGlobal = {
 		["b"] = 0.784313725490196,
 	},
 	["ScaleSpotlight"] = 1.2,
-	["WidgetsRangeMode"] = 1,
-	["WidgetsAuraMode"] = 1,
+	["ClassPartyIcon"] = false,
+	["ColorEnemyNameMode"] = 1,
 	["ColorGuildMember"] = {
 		["r"] = 0.235294117647059,
 		["g"] = 0.658823529411765,

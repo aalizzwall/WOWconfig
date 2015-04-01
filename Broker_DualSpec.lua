@@ -7,6 +7,7 @@ Broker_DualSpecDB = {
 		["Aalizz - 冰風崗哨"] = {
 			["secondaryHelm"] = 1,
 			["secondaryCloak"] = 1,
+			["points"] = false,
 			["primaryHelm"] = 1,
 			["primaryCloak"] = 1,
 		},

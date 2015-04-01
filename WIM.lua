@@ -40,19 +40,19 @@ WIM3_Data = {
 				["autofocus"] = true,
 				["onReceive"] = true,
 			},
-			["arena"] = {
-				["keepfocus"] = false,
-				["supress"] = false,
-				["onSend"] = false,
-				["autofocus"] = false,
-				["onReceive"] = false,
-			},
 			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = true,
 				["onSend"] = true,
 				["autofocus"] = false,
 				["onReceive"] = true,
+			},
+			["arena"] = {
+				["keepfocus"] = false,
+				["supress"] = false,
+				["onSend"] = false,
+				["autofocus"] = false,
+				["onReceive"] = false,
 			},
 			["alwaysOther"] = false,
 		},
@@ -100,14 +100,14 @@ WIM3_Data = {
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["arena"] = {
+			["raid"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
 				["autofocus"] = false,
 				["onReceive"] = false,
 			},
-			["raid"] = {
+			["arena"] = {
 				["keepfocus"] = false,
 				["supress"] = false,
 				["onSend"] = false,
@@ -143,9 +143,9 @@ WIM3_Data = {
 			["custom_sml"] = "Chat Blip",
 			["say_sml"] = "Chat Blip",
 			["raid_sml"] = "Chat Blip",
-			["officer_sml"] = "Chat Blip",
 			["guild_sml"] = "Chat Blip",
 			["raidleader_sml"] = "Chat Blip",
+			["officer_sml"] = "Chat Blip",
 			["battlegroundleader_sml"] = "Chat Blip",
 			["battleground_sml"] = "Chat Blip",
 		},
@@ -167,6 +167,7 @@ WIM3_Data = {
 		["direction"] = 8,
 	},
 	["lastState"] = "other",
+	["messageFormat"] = "預設",
 	["displayColors"] = {
 		["wispOut"] = {
 			["r"] = 1,
@@ -198,12 +199,12 @@ WIM3_Data = {
 			["g"] = 0,
 			["b"] = 0,
 		},
+		["useSkin"] = true,
 		["BNwispIn"] = {
 			["r"] = 0,
 			["g"] = 0.486274509803922,
 			["b"] = 0.654901960784314,
 		},
-		["useSkin"] = true,
 		["historyOut"] = {
 			["r"] = 0.705882352941177,
 			["g"] = 0.705882352941177,
@@ -300,11 +301,11 @@ WIM3_Data = {
 		},
 	},
 	["ignoreArrowKeys"] = true,
+	["coloredNames"] = true,
 	["winLoc"] = {
 		["left"] = 217,
 		["top"] = 664,
 	},
-	["coloredNames"] = true,
 	["clampToScreen"] = true,
 	["stats"] = {
 		["startDate"] = "",
@@ -318,6 +319,21 @@ WIM3_Data = {
 		["selected"] = "WIM Classic",
 		["font"] = "ChatFontNormal",
 		["suggest"] = true,
+	},
+	["ClickControl"] = {
+		["clickSensitivity"] = 0.2,
+	},
+	["tabs"] = {
+		["sortBy"] = 2,
+		["whispers"] = {
+			["enabled"] = false,
+			["guild"] = false,
+			["friends"] = false,
+		},
+		["chat"] = {
+			["enabled"] = false,
+			["aswhisper"] = false,
+		},
 	},
 	["history"] = {
 		["ageLimit"] = true,
@@ -340,21 +356,6 @@ WIM3_Data = {
 			["previewCount"] = 25,
 		},
 	},
-	["tabs"] = {
-		["sortBy"] = 2,
-		["whispers"] = {
-			["enabled"] = false,
-			["guild"] = false,
-			["friends"] = false,
-		},
-		["chat"] = {
-			["enabled"] = false,
-			["aswhisper"] = false,
-		},
-	},
-	["ClickControl"] = {
-		["clickSensitivity"] = 0.2,
-	},
 	["chat"] = {
 		["bn"] = {
 			["showAlerts"] = true,
@@ -368,6 +369,8 @@ WIM3_Data = {
 		["custom"] = {
 			["enabled"] = false,
 			["channelSettings"] = {
+				["debugguy"] = {
+				},
 			},
 		},
 		["say"] = {
@@ -375,6 +378,14 @@ WIM3_Data = {
 		["world"] = {
 			["enabled"] = false,
 			["channelSettings"] = {
+				["尋求組隊"] = {
+				},
+				["本地防務"] = {
+				},
+				["交易"] = {
+				},
+				["綜合"] = {
+				},
 			},
 		},
 		["raid"] = {
@@ -812,33 +823,33 @@ WIM3_Cache = {
 				["永恆壓迫"] = true,
 				["血影冰羽"] = true,
 				["依舊掛念"] = true,
-				["皮卡麥麥"] = true,
+				["小心賊"] = true,
 				["九黎世界"] = true,
 				["陽光小煎煎"] = true,
 				["橋頭堡主"] = true,
 				["桂圓紅棗茶"] = true,
 				["大心虎撲兔"] = true,
 				["嫩小樵"] = true,
+				["皮卡麥麥"] = true,
 				["水落冰-寒冰皇冠"] = true,
 				["忍祈"] = true,
 				["咖啡原萃"] = true,
 				["剡冥"] = true,
-				["下個就是你"] = true,
 				["瘋疙"] = true,
 				["一愛妮兒一"] = true,
 				["Freesacred"] = true,
 				["血術弒"] = true,
+				["下個就是你"] = true,
 				["Tewrterter"] = true,
-				["Oniqlo"] = true,
 				["星空闇夜"] = true,
+				["Oniqlo"] = true,
 				["大帥雞"] = true,
-				["血鵡祭櫻花"] = true,
 				["Mannyramirez"] = true,
 				["上帝低能兒"] = true,
+				["血鵡祭櫻花"] = true,
 				["紹昊"] = true,
 				["染血的無名屍"] = true,
 				["我愛大麥克"] = true,
-				["小心賊"] = true,
 				["春爺"] = true,
 				["靈音"] = true,
 				["生命分流"] = true,

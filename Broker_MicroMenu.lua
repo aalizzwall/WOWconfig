@@ -6,6 +6,8 @@ Broker_MicroMenuDB = {
 	},
 	["profiles"] = {
 		["Default"] = {
+			["showFPS"] = false,
+			["showWorldLatency"] = false,
 		},
 	},
 }

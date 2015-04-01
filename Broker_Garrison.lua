@@ -11,12 +11,13 @@ Broker_GarrisonDB = {
 					["missions"] = {
 						[168] = {
 							["type"] = "戰鬥",
+							["statusComplete"] = true,
 							["id"] = 168,
 							["duration"] = 3600,
 							["durationOriginal"] = 7200,
-							["missionState"] = 1,
-							["timeLeftCalc"] = 2138,
-							["notification"] = 0,
+							["missionState"] = 0,
+							["timeLeftCalc"] = 0,
+							["notification"] = 1,
 							["name"] = "巨魔殺戮",
 							["followers"] = {
 								{
@@ -53,10 +54,10 @@ Broker_GarrisonDB = {
 									["iconId"] = 1066293,
 								}, -- [1]
 							},
-							["start"] = 1427894548,
+							["start"] = 0,
 							["level"] = 99,
-							["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 							["timeLeft"] = "1小時",
+							["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 						},
 						[131] = {
 							["type"] = "戰鬥",
@@ -68,7 +69,7 @@ Broker_GarrisonDB = {
 							["missionState"] = 1,
 							["start"] = -1,
 							["level"] = 100,
-							["timeLeft"] = "1小時4分鐘",
+							["timeLeft"] = "23分鐘",
 							["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 						},
 						[119] = {
@@ -81,19 +82,13 @@ Broker_GarrisonDB = {
 							["missionState"] = 1,
 							["start"] = -1,
 							["level"] = 100,
-							["timeLeft"] = "1小時4分鐘",
+							["timeLeft"] = "24分鐘",
 							["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 						},
 						[157] = {
 							["type"] = "戰鬥",
 							["id"] = 157,
 							["duration"] = 1800,
-							["level"] = 95,
-							["timeLeftCalc"] = 334,
-							["notification"] = 0,
-							["name"] = "這裡不准霸凌",
-							["missionState"] = 1,
-							["start"] = 1427894544,
 							["followers"] = {
 								{
 									["name"] = "縛魂者圖菈妮",
@@ -129,8 +124,15 @@ Broker_GarrisonDB = {
 									["iconId"] = 1066103,
 								}, -- [1]
 							},
+							["missionState"] = 0,
+							["statusComplete"] = true,
+							["notification"] = 1,
+							["name"] = "這裡不准霸凌",
 							["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+							["start"] = 0,
+							["level"] = 95,
 							["timeLeft"] = "30分鐘",
+							["timeLeftCalc"] = 0,
 						},
 						[284] = {
 							["type"] = "寶藏",
@@ -142,19 +144,13 @@ Broker_GarrisonDB = {
 							["missionState"] = 1,
 							["start"] = -1,
 							["level"] = 100,
-							["timeLeft"] = "3小時4分鐘",
+							["timeLeft"] = "2小時23分鐘",
 							["typeAtlas"] = "GarrMission_MissionIcon-Trading",
 						},
 						[166] = {
 							["type"] = "戰鬥",
 							["id"] = 166,
 							["duration"] = 5400,
-							["level"] = 98,
-							["timeLeftCalc"] = 3949,
-							["notification"] = 0,
-							["name"] = "法術檢查",
-							["missionState"] = 1,
-							["start"] = 1427894559,
 							["followers"] = {
 								{
 									["name"] = "澤恩‧麥擊",
@@ -223,8 +219,14 @@ Broker_GarrisonDB = {
 									["iconId"] = 1066313,
 								}, -- [2]
 							},
-							["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+							["timeLeftCalc"] = 1536,
+							["notification"] = 0,
+							["name"] = "法術檢查",
+							["missionState"] = 1,
+							["start"] = 1427894559,
+							["level"] = 98,
 							["timeLeft"] = "1小時30分鐘",
+							["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 						},
 						[276] = {
 							["type"] = "巡邏",
@@ -236,7 +238,7 @@ Broker_GarrisonDB = {
 							["missionState"] = 1,
 							["start"] = -1,
 							["level"] = 100,
-							["timeLeft"] = "7小時4分鐘",
+							["timeLeft"] = "6小時23分鐘",
 							["typeAtlas"] = "GarrMission_MissionIcon-Patrol",
 						},
 						[258] = {
@@ -249,7 +251,88 @@ Broker_GarrisonDB = {
 							["missionState"] = 1,
 							["start"] = -1,
 							["level"] = 100,
-							["timeLeft"] = "1小時4分鐘",
+							["timeLeft"] = "23分鐘",
+							["typeAtlas"] = "GarrMission_MissionIcon-Combat",
+						},
+						[259] = {
+							["type"] = "戰鬥",
+							["id"] = 259,
+							["duration"] = 14400,
+							["followers"] = {
+								{
+									["name"] = "柯男",
+									["id"] = "0x00000000005A9681",
+									["classIcon"] = "GarrMission_ClassIcon-Paladin",
+									["abilities"] = {
+										{
+											["id"] = 131,
+											["name"] = "復仇之怒",
+											["icon"] = "Interface\\ICONS\\SPELL_HOLY_AVENGINEWRATH.BLP",
+										}, -- [1]
+										{
+											["id"] = 126,
+											["name"] = "責難",
+											["icon"] = "Interface\\ICONS\\Spell_Holy_Rebuke.blp",
+										}, -- [2]
+										{
+											["id"] = 59,
+											["name"] = "珠寶學",
+											["icon"] = "Interface\\ICONS\\INV_Misc_Gem_01.blp",
+										}, -- [3]
+										{
+											["id"] = 71,
+											["name"] = "死亡的魅力",
+											["icon"] = "Interface\\ICONS\\Achievement_Character_Undead_Female.blp",
+										}, -- [4]
+										{
+											["id"] = 80,
+											["name"] = "額外訓練",
+											["icon"] = "Interface\\ICONS\\Garrison_Building_SparringArena.blp",
+										}, -- [5]
+									},
+									["iconId"] = 1087482,
+								}, -- [1]
+								{
+									["name"] = "歐林‧棕皮",
+									["id"] = "0x00000000000F52A1",
+									["classIcon"] = "GarrMission_ClassIcon-Warrior",
+									["abilities"] = {
+										{
+											["id"] = 100,
+											["name"] = "嘲諷",
+											["icon"] = "Interface\\ICONS\\Spell_Nature_Reincarnation.blp",
+										}, -- [1]
+										{
+											["id"] = 59,
+											["name"] = "珠寶學",
+											["icon"] = "Interface\\ICONS\\INV_Misc_Gem_01.blp",
+										}, -- [2]
+										{
+											["id"] = 43,
+											["name"] = "鳥爪殺手",
+											["icon"] = "INTERFACE\\ICONS\\INV_RavenLordPet.blp",
+										}, -- [3]
+										{
+											["id"] = 102,
+											["name"] = "英勇躍擊",
+											["icon"] = "Interface\\ICONS\\Ability_HeroicLeap.blp",
+										}, -- [4]
+										{
+											["id"] = 42,
+											["name"] = "虛空殺手",
+											["icon"] = "Interface\\ICONS\\Achievement_Boss_Zuramat.blp",
+										}, -- [5]
+									},
+									["iconId"] = 1066111,
+								}, -- [2]
+							},
+							["timeLeftCalc"] = 10518,
+							["notification"] = 0,
+							["name"] = "火焰狂怒",
+							["missionState"] = 1,
+							["start"] = 1427894541,
+							["level"] = 100,
+							["timeLeft"] = "4小時",
 							["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 						},
 						[499] = {
@@ -258,7 +341,7 @@ Broker_GarrisonDB = {
 							["duration"] = 9000,
 							["durationOriginal"] = 36000,
 							["missionState"] = 1,
-							["timeLeftCalc"] = 7527,
+							["timeLeftCalc"] = 5114,
 							["notification"] = 0,
 							["name"] = "你，機器人",
 							["followers"] = {
@@ -364,100 +447,14 @@ Broker_GarrisonDB = {
 							},
 							["start"] = 1427894537,
 							["level"] = 100,
-							["typeAtlas"] = "GarrMission_MissionIcon-Combat",
 							["timeLeft"] = "2小時30分鐘",
-						},
-						[259] = {
-							["type"] = "戰鬥",
-							["id"] = 259,
-							["duration"] = 14400,
-							["level"] = 100,
-							["timeLeftCalc"] = 12931,
-							["notification"] = 0,
-							["name"] = "火焰狂怒",
-							["missionState"] = 1,
-							["start"] = 1427894541,
-							["followers"] = {
-								{
-									["name"] = "柯男",
-									["id"] = "0x00000000005A9681",
-									["classIcon"] = "GarrMission_ClassIcon-Paladin",
-									["abilities"] = {
-										{
-											["id"] = 131,
-											["name"] = "復仇之怒",
-											["icon"] = "Interface\\ICONS\\SPELL_HOLY_AVENGINEWRATH.BLP",
-										}, -- [1]
-										{
-											["id"] = 126,
-											["name"] = "責難",
-											["icon"] = "Interface\\ICONS\\Spell_Holy_Rebuke.blp",
-										}, -- [2]
-										{
-											["id"] = 59,
-											["name"] = "珠寶學",
-											["icon"] = "Interface\\ICONS\\INV_Misc_Gem_01.blp",
-										}, -- [3]
-										{
-											["id"] = 71,
-											["name"] = "死亡的魅力",
-											["icon"] = "Interface\\ICONS\\Achievement_Character_Undead_Female.blp",
-										}, -- [4]
-										{
-											["id"] = 80,
-											["name"] = "額外訓練",
-											["icon"] = "Interface\\ICONS\\Garrison_Building_SparringArena.blp",
-										}, -- [5]
-									},
-									["iconId"] = 1087482,
-								}, -- [1]
-								{
-									["name"] = "歐林‧棕皮",
-									["id"] = "0x00000000000F52A1",
-									["classIcon"] = "GarrMission_ClassIcon-Warrior",
-									["abilities"] = {
-										{
-											["id"] = 100,
-											["name"] = "嘲諷",
-											["icon"] = "Interface\\ICONS\\Spell_Nature_Reincarnation.blp",
-										}, -- [1]
-										{
-											["id"] = 59,
-											["name"] = "珠寶學",
-											["icon"] = "Interface\\ICONS\\INV_Misc_Gem_01.blp",
-										}, -- [2]
-										{
-											["id"] = 43,
-											["name"] = "鳥爪殺手",
-											["icon"] = "INTERFACE\\ICONS\\INV_RavenLordPet.blp",
-										}, -- [3]
-										{
-											["id"] = 102,
-											["name"] = "英勇躍擊",
-											["icon"] = "Interface\\ICONS\\Ability_HeroicLeap.blp",
-										}, -- [4]
-										{
-											["id"] = 42,
-											["name"] = "虛空殺手",
-											["icon"] = "Interface\\ICONS\\Achievement_Boss_Zuramat.blp",
-										}, -- [5]
-									},
-									["iconId"] = 1066111,
-								}, -- [2]
-							},
 							["typeAtlas"] = "GarrMission_MissionIcon-Combat",
-							["timeLeft"] = "4小時",
 						},
 					},
 					["tooltipEnabled"] = true,
 					["buildingsExpanded"] = true,
 					["garrisonCacheLastLooted"] = 1427894501,
-					["info"] = {
-						["playerName"] = "Aalizz",
-						["playerFaction"] = "Horde",
-						["realmName"] = "冰風崗哨",
-						["playerClass"] = "DRUID",
-					},
+					["missionsExpanded"] = true,
 					["currencyApexisAmount"] = 4436,
 					["notificationEnabled"] = true,
 					["buildings"] = {
@@ -475,7 +472,7 @@ Broker_GarrisonDB = {
 								["itemID"] = 120204,
 								["itemQuality"] = 1,
 								["notificationDismissed"] = false,
-								["timeleftString"] = "1小時30分鐘",
+								["timeleftString"] = "50分鐘",
 								["name"] = "軍備廠",
 								["shipmentCapacity"] = 36,
 								["creationTime"] = 1427887046,
@@ -511,7 +508,7 @@ Broker_GarrisonDB = {
 								["notificationValue"] = 1,
 								["shipmentsInProgress"] = 35,
 								["notificationDismissed"] = false,
-								["timeleftString"] = "2小時13分鐘",
+								["timeleftString"] = "1小時33分鐘",
 								["shipmentsTotal"] = 36,
 								["itemID"] = 116054,
 								["itemQuality"] = 1,
@@ -598,7 +595,7 @@ Broker_GarrisonDB = {
 								["itemID"] = 112377,
 								["itemQuality"] = 2,
 								["notificationDismissed"] = false,
-								["timeleftString"] = "2小時7分鐘",
+								["timeleftString"] = "1小時27分鐘",
 								["name"] = "雕銘書房",
 								["shipmentCapacity"] = 36,
 								["creationTime"] = 1427889252,
@@ -665,7 +662,7 @@ Broker_GarrisonDB = {
 								["itemID"] = 118111,
 								["itemQuality"] = 1,
 								["notificationDismissed"] = false,
-								["timeleftString"] = "2小時9分鐘",
+								["timeleftString"] = "1小時29分鐘",
 								["name"] = "貿易站",
 								["shipmentCapacity"] = 29,
 								["creationTime"] = 1427889383,
@@ -744,7 +741,7 @@ Broker_GarrisonDB = {
 								["itemID"] = 116055,
 								["itemQuality"] = 1,
 								["notificationDismissed"] = false,
-								["timeleftString"] = "48分鐘",
+								["timeleftString"] = "8分鐘",
 								["name"] = "霜牆礦場",
 								["shipmentCapacity"] = 36,
 								["creationTime"] = 1427884507,
@@ -765,13 +762,40 @@ Broker_GarrisonDB = {
 						},
 					},
 					["currencyAmount"] = 3480,
-					["missionsExpanded"] = true,
+					["info"] = {
+						["playerName"] = "Aalizz",
+						["playerFaction"] = "Horde",
+						["realmName"] = "冰風崗哨",
+						["playerClass"] = "DRUID",
+					},
 				},
 			},
 		},
 	},
 	["profiles"] = {
 		["Default"] = {
+			["notification"] = {
+				["building"] = {
+					["toastEnabled"] = false,
+				},
+				["shipment"] = {
+					["toastEnabled"] = false,
+				},
+				["mission"] = {
+					["toastEnabled"] = false,
+				},
+			},
+			["general"] = {
+				["building"] = {
+					["ldbTemplate"] = "custom",
+					["ldbText"] = "%sr%",
+				},
+				["hideGarrisonMinimapButton"] = true,
+				["mission"] = {
+					["ldbTemplate"] = "custom",
+					["ldbText"] = "%mp%:%mc%",
+				},
+			},
 		},
 	},
 }

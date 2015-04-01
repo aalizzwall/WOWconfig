@@ -19,6 +19,7 @@ RangeDisplayDB3 = {
 				["focus"] = {
 				},
 				["mouseover"] = {
+					["enabled"] = false,
 					["y"] = -39.9999923706055,
 					["x"] = 12.0000247955322,
 				},

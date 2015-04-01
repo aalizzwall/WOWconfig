@@ -1,0 +1,62 @@
+
+ChocolateBarDB = {
+	["profileKeys"] = {
+		["Aalizz - 冰風崗哨"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["objSettings"] = {
+				["Skada"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["RangeDisplay"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["BugSack"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["Bartender4"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["Decursive"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["Prat"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["MoreChocolate"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["金錢"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["Broker_Location"] = {
+					["barName"] = "ChocolateBar1",
+				},
+				["TellMeWhen"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["BagnonLauncher"] = {
+					["showText"] = false,
+					["barName"] = "ChocolateBar1",
+					["align"] = "right",
+				},
+				["Broker_MicroMenu"] = {
+					["barName"] = "ChocolateBar1",
+				},
+			},
+		},
+	},
+}

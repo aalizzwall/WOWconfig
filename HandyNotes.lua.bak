@@ -1,0 +1,19 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Aalizz - 冰風崗哨"] = "Aalizz - 冰風崗哨",
+	},
+	["profiles"] = {
+		["Aalizz - 冰風崗哨"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Aalizz - 冰風崗哨"] = "Aalizz - 冰風崗哨",
+	},
+	["profiles"] = {
+		["Aalizz - 冰風崗哨"] = {
+		},
+	},
+}

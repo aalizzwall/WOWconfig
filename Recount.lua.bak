@@ -1,0 +1,33 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Aalizz - 冰風崗哨"] = "Aalizz - 冰風崗哨",
+	},
+	["profiles"] = {
+		["Aalizz - 冰風崗哨"] = {
+			["GraphWindowY"] = 0,
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -355.000160217285,
+					["x"] = -652.000274658203,
+					["w"] = 140.000045776367,
+					["h"] = 199.999969482422,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["DetailWindowY"] = 0,
+			["DetailWindowX"] = 0,
+			["GraphWindowX"] = 0,
+			["CurDataSet"] = "OverallData",
+		},
+	},
+}

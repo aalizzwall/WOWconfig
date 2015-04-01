@@ -1,0 +1,17 @@
+
+Postal3DB = {
+	["global"] = {
+		["BlackBook"] = {
+			["alts"] = {
+				"Aalizz|冰風崗哨|Horde|90|DRUID", -- [1]
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Aalizz - 冰風崗哨"] = "Aalizz - 冰風崗哨",
+	},
+	["profiles"] = {
+		["Aalizz - 冰風崗哨"] = {
+		},
+	},
+}

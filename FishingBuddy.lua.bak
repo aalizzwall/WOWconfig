@@ -1,0 +1,90 @@
+
+FishingBuddy_Info = {
+	["FishTotals"] = {
+		[1000] = 160,
+		[1001] = 160,
+	},
+	["HiddenFishies"] = {
+	},
+	["FishingSkill"] = {
+		[1001] = 0,
+	},
+	["DataFish"] = 0,
+	["Version"] = 10005,
+	["FishingHoles"] = {
+		[1001] = {
+			[86545] = 1,
+			[74866] = 56,
+			[88496] = 8,
+			[74857] = 44,
+			[74864] = 51,
+		},
+	},
+	["SubZones"] = {
+		[2007] = "Shrine of Two Moons",
+		[1000] = 1,
+		[2000] = 8,
+		[2004] = "Hall of Secrets",
+		[2008] = "The Golden Terrace",
+		[2001] = "Hall of the Crescent Moon",
+		[2005] = "Hall of Tranquility",
+		[1001] = "The Jade Forest",
+		[2002] = "The Keggary",
+		[2006] = "The Jade Vaults",
+		[3000] = 1,
+		[2003] = "The Imperial Mercantile",
+		[3001] = "The Summer Fields",
+	},
+	["ZoneIndex"] = {
+		"The Jade Forest", -- [1]
+		"Shrine of Two Moons", -- [2]
+		"Vale of Eternal Blossoms", -- [3]
+	},
+	["ImppDBLoaded"] = 0,
+	["Fishies"] = {
+		[86545] = {
+			["canopen"] = false,
+			["color"] = "ff1eff00",
+			["skill"] = 600,
+			["mods"] = 130,
+			["quality"] = 2,
+			["quest"] = true,
+			["level"] = 730,
+			["zhTW"] = "擬色章魚",
+			["texture"] = "Interface\\ICONS\\inv_misc_fish_104.blp",
+		},
+		[74866] = {
+			["mods"] = 30,
+			["skill"] = 600,
+			["quality"] = 1,
+			["level"] = 630,
+			["zhTW"] = "金鯉魚",
+			["texture"] = "Interface\\ICONS\\INV_Misc_Fish_103.blp",
+		},
+		[88496] = {
+			["mods"] = 130,
+			["skill"] = 600,
+			["quality"] = 1,
+			["level"] = 730,
+			["zhTW"] = "密封的木箱",
+			["texture"] = "Interface\\ICONS\\INV_Crate_03.blp",
+		},
+		[74857] = {
+			["mods"] = 30,
+			["skill"] = 600,
+			["quality"] = 1,
+			["level"] = 630,
+			["zhTW"] = "巨型螳螂蝦",
+			["texture"] = "Interface\\ICONS\\INV_Misc_Fish_101.blp",
+		},
+		[74864] = {
+			["mods"] = 30,
+			["skill"] = 600,
+			["quality"] = 1,
+			["level"] = 630,
+			["zhTW"] = "暗礁章魚",
+			["texture"] = "Interface\\ICONS\\INV_Misc_Fish_102.blp",
+		},
+	},
+	["FishInfo2"] = 0,
+}
